@@ -1,26 +1,69 @@
 body {
-    background-color: #24242b;
+    background-color: #222
+    
 }
 
+.button {
+  
+  background-color: #000000;
+  color: #00ff00;
+  border: 2px solid #00ff00;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+  box-shadow: 0 0 10px #00ff00;
+  width: 200px;              
+  height: 50px;
+  display: inline-block;     
+  margin: 10px;              
+  text-align: center;
+  line-height: 50px;         
+  text-decoration: none;     
+}
+
+
+.button:hover {
+  background-color: #00ff00;
+  color: #000000;
+  box-shadow: 0 0 20px #00ff00;
+}
+.grid-container {
+  display: grid; /* Enables CSS Grid layout */
+  grid-template-columns: repeat(2, 1fr); /* Creates two columns of equal width */
+  grid-template-rows: repeat(2, 1fr); /* Creates two rows of equal height */
+  gap: 10px; /* Adds a gap of 10px between grid items (buttons) */
+  width: 400px; /* Example width for the container */
+  margin: 50px auto; /* Centers the container on the page */
+}
+
+.grid-container button {
+  padding: 20px; /* Adds padding to the buttons */
+  font-size: 18px; /* Sets font size for button text */
+  background-color: #007bff; /* Example background color */
+  color: white; /* Example text color */
+  border: none; /* Removes default button border */
+  border-radius: 5px; /* Rounds button corners */
+  cursor: pointer; /* Changes cursor to pointer on hover */
+}
+
+.grid-container button:hover {
+  background-color: #0056b3; /* Darker background on hover */
+}
 H1 {
-    color:#b3c8da;
-    font-size: 50px;
-
+      font-family: "Michroma", sans-serif;
+  font-weight: 900;
+  font-style: bold;
+    font-size: 100px;
+    text-align: center;
+    color: #c5edc2
 }
-
 H2 {
-    color:#5f7a90;
-}
-
-p {
-    color:darkgray;
-}
-
-
-.white-text {
-    color: white;
-}
-
-li {
-    color: darkgrey
+      font-family: "Michroma", sans-serif;
+  font-weight: 500;
+  font-style: bold;
+    font-size: 15px;
+    text-align: center;
+    margin: 20px auto;
+    color: #597157
 }

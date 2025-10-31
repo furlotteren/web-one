@@ -1,0 +1,101 @@
+body {
+    background-color: #222;
+    color: darkgray;
+    text-align: center;
+}
+
+.type1 {
+    font-family: "Michroma", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.type2 {
+      font-family: "Momo Trust Display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.type3 {
+     font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.type4 {
+     font-family: "Momo Signature", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.type4 {
+     font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.type5 {
+      font-family: "Bitcount Prop Single Ink", system-ui;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0,
+    "SZP1" 0,
+    "SZP2" 0,
+    "XPN1" 0,
+    "XPN2" 0,
+    "YPN1" 0,
+    "YPN2" 0;
+}
+
+.type6 {
+      font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.type7 {
+     font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.type8 {
+      font-family: "Tangerine", cursive;
+      font-style: normal;
+      font-size: 50px;
+      font-weight: 900;
+      letter-spacing: 5px;
+      line-height: 10px;
+}
+
+.type9  { 
+      font-family: "Bitcount Grid Single", system-ui;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
+     font-size: 10px
+}
+
+.type10 {
+      font-family: "Bitcount Grid Single", system-ui;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
+    font-size: 10px
+}
