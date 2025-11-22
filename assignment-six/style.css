@@ -1,0 +1,100 @@
+body {
+    background: yellow;
+
+}
+
+
+
+.bigbox {
+     width: 760px;
+    margin: 0 auto 25px auto;
+      padding: 15px;
+    
+}
+
+
+.big1 {
+     background: lightgreen;
+    height: 170px;
+}
+
+.big1 .box1 {
+    width: 150px;
+    height: 150px;
+     background: cyan;
+    float: left;
+     margin-left: 25px;
+      text-align: center;
+      padding-top: 8px;
+}
+
+.big1 .box2 {
+    width: 150px;
+     height: 150px;
+     background: tan;
+     float: right;
+    margin-right: 25px;
+    text-align: center;
+    padding-top: 8px;
+}
+
+
+.big2 {
+     background: grey;
+    height: 380px;
+}
+
+.big2 .box1 {
+    width: 150px;
+    height: 150px;
+     background: beige;
+     float: left;
+     margin-left: 20px;
+    text-align: center;
+     padding-top: 10px;
+}
+
+.big2 .box2 {
+    width: 150px;
+     height: 150px;
+     background: black;
+    color: white;
+    float: right;
+    margin-right: 20px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.box3 {
+    width: 690px;
+    height: 150px;
+     background: #df9a43;
+    margin: 180px auto 0 auto;
+text-align: center;
+    padding-top: 60px;
+   
+}
+
+
+.big3 {
+    background: #5c3610;
+    color: white;
+    height: 260px;
+}
+
+.box1 {
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;
+    background: purple;
+      text-align: center;
+    padding-top: 10px;
+     float: left;
+}
+
+.big3 .textbox {
+    width: 700px;
+  
+    font-size: 17px;
+   
+}
